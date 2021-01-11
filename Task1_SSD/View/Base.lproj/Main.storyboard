@@ -363,22 +363,6 @@
             </objects>
             <point key="canvasLocation" x="2132" y="-866"/>
         </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="7bB-Nd-Pvv">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" modalPresentationStyle="fullScreen" id="kl8-TC-mxe" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationItem key="navigationItem" id="bQm-dl-Oue"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="qXo-v3-toI">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="I43-lz-PTn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-500" y="-94"/>
-        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="TYE-m6-FCl"/>
