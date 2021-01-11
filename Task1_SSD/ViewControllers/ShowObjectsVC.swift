@@ -15,7 +15,7 @@ class ShowObjectsVC: UIViewController {
     var zones: [Zone] = []
     var imageUrls: [String] = []
     var names: [String] = []
-    var images: [UIImage] = []
+   
     
     var baseUrl = "https://adsrv.sab-lab.com/api/show/app/60?uuid=fghy123sdasdasdasdasafgdfgdfa&secret=bqgqkbxgOaU3pPEt"
     
@@ -47,15 +47,7 @@ class ShowObjectsVC: UIViewController {
                         let name = zone.name
                         self.names.append(name)
                     }
-                    
-                    for n in 0..<10 {
-                       
-                        NetworkManagerAlamofire.downloadImage(url: self.imageUrls[n]) { image in
-                        
-                           // guard let image = image else { return }
-                            self.images.append(image)
-                        }
-                    }
+    
                        print(self.names)
                        print(self.imageUrls)
                     
@@ -82,11 +74,9 @@ extension ShowObjectsVC: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        let cell = tableView.dequeueReusableCell(withIdentifier: "apiCell") as! TableViewCell
-        cell.nameLabel.text  = self.names[indexPath.row]
-       // cell.projectsImageView.image = images[indexPath.row]
+        let cell = tableView.dequeueReusableCell(withIdentifier: "apiCell")!
+        cell.textLabel?.text = self.names[indexPath.row]
        
-        // print(self.names)
         return cell
     }
 }

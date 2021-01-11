@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		0F109ED57D1F75C50971F3BA /* Pods_Task1_SSD_Task1_SSDUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 026F96A598AF888E17943AF7 /* Pods_Task1_SSD_Task1_SSDUITests.framework */; };
 		423C0AEB666DCBB524DBD3C5 /* Pods_Task1_SSD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6569AE76B8932A9963229466 /* Pods_Task1_SSD.framework */; };
-		A201025F25A9F93F0050E8E5 /* NetworkManagerAlamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = A201025E25A9F93F0050E8E5 /* NetworkManagerAlamofire.swift */; };
 		A268955C25A96E1B0086FCC8 /* InsertUserVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A268955B25A96E1B0086FCC8 /* InsertUserVC.swift */; };
 		A268957125A97C840086FCC8 /* ItemVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A268957025A97C840086FCC8 /* ItemVC.swift */; };
 		A268957625A97C9E0086FCC8 /* InsertItemVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A268957525A97C9E0086FCC8 /* InsertItemVC.swift */; };
@@ -27,7 +26,6 @@
 		A2ABF65E25A95A2E00376346 /* DataBaseUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2ABF65D25A95A2E00376346 /* DataBaseUtils.swift */; };
 		A2ABF66425A95BFE00376346 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2ABF66325A95BFE00376346 /* User.swift */; };
 		A2ABF66C25A95DCD00376346 /* Items.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2ABF66B25A95DCD00376346 /* Items.swift */; };
-		A2FC21F225AB5A1A00E5EB5A /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FC21F125AB5A1A00E5EB5A /* TableViewCell.swift */; };
 		BCDF742F9B97527833E8E157 /* Pods_Task1_SSDTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7600AB4C04456BDC3F988557 /* Pods_Task1_SSDTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -54,7 +52,6 @@
 		6569AE76B8932A9963229466 /* Pods_Task1_SSD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Task1_SSD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7600AB4C04456BDC3F988557 /* Pods_Task1_SSDTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Task1_SSDTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1767C1C2F12DF7A51BCBCB3 /* Pods-Task1_SSD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Task1_SSD.release.xcconfig"; path = "Target Support Files/Pods-Task1_SSD/Pods-Task1_SSD.release.xcconfig"; sourceTree = "<group>"; };
-		A201025E25A9F93F0050E8E5 /* NetworkManagerAlamofire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManagerAlamofire.swift; sourceTree = "<group>"; };
 		A268955B25A96E1B0086FCC8 /* InsertUserVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertUserVC.swift; sourceTree = "<group>"; };
 		A268957025A97C840086FCC8 /* ItemVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemVC.swift; sourceTree = "<group>"; };
 		A268957525A97C9E0086FCC8 /* InsertItemVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertItemVC.swift; sourceTree = "<group>"; };
@@ -78,7 +75,6 @@
 		A2ABF65D25A95A2E00376346 /* DataBaseUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBaseUtils.swift; sourceTree = "<group>"; };
 		A2ABF66325A95BFE00376346 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		A2ABF66B25A95DCD00376346 /* Items.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Items.swift; sourceTree = "<group>"; };
-		A2FC21F125AB5A1A00E5EB5A /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		A7C400B42E66D056D01A7915 /* Pods-Task1_SSD-Task1_SSDUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Task1_SSD-Task1_SSDUITests.debug.xcconfig"; path = "Target Support Files/Pods-Task1_SSD-Task1_SSDUITests/Pods-Task1_SSD-Task1_SSDUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		BCDF3912F56FA1724ED92E96 /* Pods-Task1_SSDTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Task1_SSDTests.debug.xcconfig"; path = "Target Support Files/Pods-Task1_SSDTests/Pods-Task1_SSDTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C871BF01F40FB9098BC69D86 /* Pods-Task1_SSD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Task1_SSD.debug.xcconfig"; path = "Target Support Files/Pods-Task1_SSD/Pods-Task1_SSD.debug.xcconfig"; sourceTree = "<group>"; };
@@ -140,7 +136,6 @@
 			isa = PBXGroup;
 			children = (
 				A2ABF62D25A9592700376346 /* Main.storyboard */,
-				A2ABF63025A9592C00376346 /* Assets.xcassets */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -204,8 +199,6 @@
 				A2ABF66325A95BFE00376346 /* User.swift */,
 				A2ABF66B25A95DCD00376346 /* Items.swift */,
 				A268958B25A9AC3C0086FCC8 /* Object.swift */,
-				A201025E25A9F93F0050E8E5 /* NetworkManagerAlamofire.swift */,
-				A2FC21F125AB5A1A00E5EB5A /* TableViewCell.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -225,6 +218,7 @@
 		A2ABF65C25A959DA00376346 /* Supportfiles */ = {
 			isa = PBXGroup;
 			children = (
+				A2ABF63025A9592C00376346 /* Assets.xcassets */,
 				A2ABF62725A9592700376346 /* AppDelegate.swift */,
 				A2ABF62925A9592700376346 /* SceneDelegate.swift */,
 				A2ABF63225A9592C00376346 /* LaunchScreen.storyboard */,
@@ -476,7 +470,6 @@
 				A268958C25A9AC3C0086FCC8 /* Object.swift in Sources */,
 				A268959125A9ACAB0086FCC8 /* Errors.swift in Sources */,
 				A2ABF62825A9592700376346 /* AppDelegate.swift in Sources */,
-				A2FC21F225AB5A1A00E5EB5A /* TableViewCell.swift in Sources */,
 				A268957625A97C9E0086FCC8 /* InsertItemVC.swift in Sources */,
 				A268959625A9B2D60086FCC8 /* ShowObjectsVC.swift in Sources */,
 				A2ABF66425A95BFE00376346 /* User.swift in Sources */,
@@ -484,7 +477,6 @@
 				A2ABF62A25A9592700376346 /* SceneDelegate.swift in Sources */,
 				A268955C25A96E1B0086FCC8 /* InsertUserVC.swift in Sources */,
 				A268957125A97C840086FCC8 /* ItemVC.swift in Sources */,
-				A201025F25A9F93F0050E8E5 /* NetworkManagerAlamofire.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
