@@ -28,8 +28,9 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YNr-e9-dr2">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="YNr-e9-dr2">
                                 <rect key="frame" x="154" y="189" width="119" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="56" id="icJ-Dz-Jb6"/>
                                 </constraints>
@@ -307,19 +308,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jFm-3l-3RE">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="natural" minimumFontSize="17" id="jFm-3l-3RE">
                                 <rect key="frame" x="20" y="70" width="374" height="34"/>
+                                <autoresizingMask key="autoresizingMask"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" style="wheels" translatesAutoresizingMaskIntoConstraints="NO" id="r2n-en-Nt2">
-                                <rect key="frame" x="0.0" y="153" width="414" height="216"/>
+                                <rect key="frame" x="0.0" y="153" width="414" height="214"/>
                             </datePicker>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FcV-K0-CzW">
-                                <rect key="frame" x="159" y="370" width="106" height="56"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="56" id="oD1-lR-pXI"/>
-                                </constraints>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="FcV-K0-CzW">
+                                <rect key="frame" x="169" y="368" width="110" height="52"/>
+                                <autoresizingMask key="autoresizingMask"/>
                                 <state key="normal" title="Save">
                                     <color key="titleColor" systemColor="labelColor"/>
                                 </state>
@@ -333,9 +333,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="r2n-en-Nt2" firstAttribute="top" secondItem="jFm-3l-3RE" secondAttribute="bottom" constant="49" id="710-lD-pd7"/>
-                            <constraint firstItem="FcV-K0-CzW" firstAttribute="leading" secondItem="1KV-Zz-leB" secondAttribute="leading" constant="159" id="GFu-hQ-i9C"/>
                             <constraint firstItem="1KV-Zz-leB" firstAttribute="trailing" secondItem="r2n-en-Nt2" secondAttribute="trailing" id="IMV-SY-kew"/>
-                            <constraint firstItem="1KV-Zz-leB" firstAttribute="trailing" secondItem="FcV-K0-CzW" secondAttribute="trailing" constant="149" id="Mlx-iL-0iG"/>
                             <constraint firstItem="FcV-K0-CzW" firstAttribute="top" secondItem="r2n-en-Nt2" secondAttribute="bottom" constant="1" id="OuT-5W-CBT"/>
                             <constraint firstItem="r2n-en-Nt2" firstAttribute="centerX" secondItem="1KV-Zz-leB" secondAttribute="centerX" id="SSM-tk-bKY"/>
                             <constraint firstItem="jFm-3l-3RE" firstAttribute="leading" secondItem="1KV-Zz-leB" secondAttribute="leading" constant="20" id="WcN-CW-Do8"/>
@@ -352,12 +350,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dx4-94-Oz8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2132" y="-866"/>
+            <point key="canvasLocation" x="2131.8840579710145" y="-866.51785714285711"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="TYE-m6-FCl"/>
-        <segue reference="3uX-4e-Gky"/>
+        <segue reference="9LY-bi-EFS"/>
+        <segue reference="xqh-45-yXW"/>
     </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="labelColor">
