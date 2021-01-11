@@ -1,0 +1,6 @@
+framework module Pods_Task1_SSDTests {
+  umbrella header "Pods-Task1_SSDTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
