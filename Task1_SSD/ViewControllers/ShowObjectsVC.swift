@@ -52,7 +52,7 @@ class ShowObjectsVC: UIViewController {
                        
                         NetworkManagerAlamofire.downloadImage(url: self.imageUrls[n]) { image in
                         
-                            guard let image = image else { return }
+                           // guard let image = image else { return }
                             self.images.append(image)
                         }
                     }
